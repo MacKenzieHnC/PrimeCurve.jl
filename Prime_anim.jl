@@ -58,7 +58,7 @@ for p in primes_list
 end
 
 # Make scene
-fig = Figure(resolution = (1920, 1080))
+fig = Figure(resolution = resolution)
 ax = fig[1, 1] = Axis(fig)
 ax.autolimitaspect = 1
 ax.xticks = ([-2000:20:2000...], string.([-2000:20:2000...]))
